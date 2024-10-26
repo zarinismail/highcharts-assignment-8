@@ -31,6 +31,15 @@ h1 {
   text-align: center;
 }
 
+#intro {
+  width: 50%;
+  max-width: 815px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
 #container {
   display: block;
   align-items: center;
@@ -62,7 +71,7 @@ article {
 }
 
 .description {
-  padding: 1rem;
+  padding: .75rem;
   max-width: 815px;
   line-height: 1.5rem;
 }
@@ -82,19 +91,21 @@ a:hover {
 }
 
 /* Media queries */
-@media screen and (max-width: 896px) {
-  
-  #container2 {
-    width: 60%;
-  }
-
- 
-}
-
 @media screen and (max-width: 920px) {
   
   #container {
     width: 80%;
+  }
+
+  #intro {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  
+  #container2 {
+    width: 60%;
   }
 }
 
